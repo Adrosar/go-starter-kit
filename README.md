@@ -8,7 +8,7 @@ Osobiście korzystałem  z pomocy na stronach:
  - [Easy Go Programming Setup for Windows](http://www.wadewegner.com/2014/12/easy-go-programming-setup-for-windows/)
 
 
-## Instalacja (ręczna dla Windows 10):
+## Instalacja dla Windows 10:
 
 **[1]** Przejdź na stronę [Downloads](https://golang.org/dl/) i pobierz plik [go1.13.5.windows-amd64.zip](https://dl.google.com/go/go1.13.5.windows-amd64.zip) dla **Windows 10 64-bit** lub inny odpowiedni dla swojego systemu operacyjnego.
 
@@ -55,7 +55,7 @@ Została przygotowana wedle zaleceń → [Standard Go Project Layout](https://gi
 
 ## Budowanie aplikacji
 
-Skrypt `/scripts/build.sh` buduje plik binarny **app** do folderu `/build`
+Skrypt `/scripts/build.cmd` buduje plik binarny **app.exe** do folderu `/build`
 
 
 ## Wtyczka dla VSC:
@@ -85,3 +85,5 @@ C:\App\GoLang\workspace\src\ ... itd.
 ```
 
 **[2]** Lepsze wrażenia z programowania w **GoLang** w **Visual Studio Code** są w systemie Linux.
+
+**[3]** Ten projekt działa również w systemie **Linux** _(przetestowane na Linux Lite 4.8)_. Do zbudowania aplikacji użyj skryptu `/scripts/build.sh`
