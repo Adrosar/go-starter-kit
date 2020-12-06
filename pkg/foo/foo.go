@@ -1,4 +1,4 @@
-package boo
+package foo
 
 // Foo ...
 type Foo struct {
